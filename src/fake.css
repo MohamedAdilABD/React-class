@@ -1,0 +1,81 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  .fake {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    height: 800px;
+    background: linear-gradient(to bottom, rgb(253, 207, 207), rgb(151, 191, 227)) no-repeat;
+  
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .categories {
+    margin-bottom: 20px;
+  }
+  
+  .categories span {
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .categories .active {
+    border-bottom: 2px solid blue;
+  }
+  
+  .card-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 150px;
+    height: 180px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #8d6dad;
+    font-weight: bold;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    border: 1px solid #ddd;
+  
+  
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
